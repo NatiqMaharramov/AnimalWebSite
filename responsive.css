@@ -1,0 +1,237 @@
+@media screen and (max-width:1300px) {
+    .header_blue2 {
+        padding-left: 0px;
+        align-items: center;
+        justify-content: center;
+        }
+        .header_center_img h3 {
+            font-size: 30px;
+            line-height: 50px;
+            max-width: 530px;
+            margin-left: 100px;
+            padding-top: 100px;
+          }
+
+          .footer_container{
+            width: 100%;
+            height: 164px;
+            background: #E5E5E5;
+         
+           
+          }
+          .footer_img{
+            max-width: 600px;
+           display: flex;
+           gap: 1px;
+           margin-top: 0;
+         }
+         .footer_img img{
+          max-width: 45px;
+          display: flex;
+          margin-left: auto;
+          margin-right: auto;
+         }
+          
+    
+}
+@media screen and (max-width:1088px){
+    .header_blue2 {
+  
+          gap: 20px;
+        font-size: 14px;
+    
+        }
+        .input1 input{
+          width: 200px;
+          height: 40px;
+          }
+          .span{
+            width: 55px;
+          height: 40px;
+          display: block;
+          background: #FFFFFF;
+          cursor: pointer;
+          }
+          .ennd{
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+          }
+          .appstore img{
+            width: 100px;
+          }
+}
+
+@media screen and (max-width:855px){
+.header_head_container{
+    flex-direction: column;
+    align-items: center;
+}
+.biopet {
+    width: 150px;
+  }
+    
+}
+@media screen and (max-width:800px){
+
+.nav_icon{
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+.header_blue2 {
+    position: fixed;
+    left: -300px;
+    top: 0;
+    width: 300px;
+    padding-left: 0;
+      gap: 20px;
+      background-color: var(--blue);
+      height: 100vh;
+      flex-direction: column;
+      align-items: center;
+    font-size: 18px;
+    line-height: 21px;
+    list-style: none;
+    color: #FFFFFF;
+    transition: 1s ease-in-out;
+    }
+    .header_center_img {
+      height: 90vh;
+      }
+      #nav_icon:checked~.header_blue2{
+        left: 0;
+      }
+      .aptec_container{
+     left: -40px;
+        }
+        .muayine_container{
+            left: 70px;
+        }
+}
+@media screen and (max-width:690px) {
+
+    .icons {
+        display: flex;
+        gap: 10px;
+        margin-left: -10px;
+        margin-top: 15px;
+      }
+      .button button {
+        padding-left: 1px;
+        font-size: 9px;
+        line-height: 16px;
+        color: #ffffff;
+        margin-right: 5px;
+      }
+      .button {
+        width: 79px;
+        height: 30px;
+        align-items: center;
+      }
+      .button svg{
+       width: 25px;
+      }
+      .serch_icon {
+        width: 145px;
+        height: 5.5vh;
+        margin-top: 5px;
+      }
+}
+@media screen and (max-width:460px){
+
+
+
+    .head_icon{
+        display: block;
+      }
+      .icons {
+        gap: 14px;
+        flex-direction: column;
+        position: static;
+        height: 50vh;
+        background-color: rgba(0,0,0, 0.6);
+        z-index: 444;
+       position: absolute;
+       right: -80px;
+       padding-left: 20px;
+       padding-top: 40px;
+       margin-top: 60px;
+       transition: 0.5s ease-out;
+      }
+      #option {
+        background: none;
+        font-size: 20px;
+        margin-top: -8px;
+        height: 30px;
+        margin-left: -5px;
+        color: #000000;
+      }
+      .count{
+        background-color: var(--yellow);
+          top: -5px;
+          right: 25px;
+          width: 15px;
+          height: 15px;
+        }
+        #head_icon:checked~.icons{
+            right: 0;
+        }
+        .input1 input{
+          width: 120px;
+          height:30px;
+          }
+          .span{
+            width: 55px;
+          height: 30px;
+          display: block;
+          background: #FFFFFF;
+          cursor: pointer;
+          }
+          .ennd{
+            display: flex;
+            flex-direction: column;
+          }
+          .appstore img{
+            width: 70px;
+          }
+          .footer_icons img{
+         width: 20px;
+          }
+
+
+}
+@media screen and (max-width:1016px){
+
+  .grid_card:nth-child(2){
+    margin-top: 0;
+    }
+    .grid_container1 {
+    gap: 40px;
+    }
+    
+}
+
+@media screen and (max-width:600px){
+
+.grid_contianer3_buttons{
+  align-items: center;
+  flex-direction: column;
+}
+
+}
+
+
+@media screen and (max-width:930px){
+
+  .slider1_container{
+
+    justify-content: space-between;
+    }
+    
+.left,.right{
+  display: block;
+}
+
+}
